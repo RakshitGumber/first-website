@@ -1,0 +1,150 @@
+body {
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+header h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: blueviolet;
+  text-shadow: 1px 1px 2px blueviolet;
+  text-align: center;
+  font-size: 36px;
+}
+
+header p {
+  line-height: 1.3rem;
+  font-size: 1.2rem;
+}
+
+header p::before {
+  font-family: sans-serif;
+  font-weight: 800;
+  content: "Home";
+  font-size: 13px;
+  color: white;
+  background-color: gold;
+  margin-right: 2px;
+  padding: 4px 12px;
+  border-radius: 5px;
+}
+
+header p > span {
+  font-weight: 800;
+  color: royalblue;
+  text-decoration: underline dashed;
+  cursor: pointer;
+}
+
+hr {
+  width: 80%;
+  border: 2px dashed teal;
+}
+
+.new::after {
+  background-color: goldenrod;
+  font-family: sans-serif;
+  font-weight: 800;
+  content: "New";
+  font-size: 13px;
+  color: white;
+  margin-left: 10px;
+  padding: 4px 12px;
+  border-radius: 5px;
+}
+
+.trending::after {
+  background-color: palevioletred;
+  font-family: sans-serif;
+  font-weight: 800;
+  content: "Trending";
+  font-size: 13px;
+  color: white;
+  margin-left: 10px;
+  padding: 4px 12px;
+  border-radius: 5px;
+}
+
+footer {
+  width: auto;
+  clear: both;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-size: 20px;
+  color: rebeccapurple;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 800, "GRAD" 00, "opsz" 24;
+  font-size: 40px !important;
+  color: white;
+}
+
+.magic-button {
+  background-color: palevioletred;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px 10px;
+  border-radius: 25%;
+  border: 5px solid rgb(187, 70, 109);
+  box-shadow: inset 1px 1px 5px white;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px black;
+}
+
+.websites h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 28px;
+  color: coral;
+  text-shadow: 1px 1px 2px coral;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-decoration: 2px underline;
+}
+
+.websites ul {
+  line-height: 1.8rem;
+  margin-left: 50px;
+  font-weight: 600;
+  font-family: cursive;
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: indigo;
+}
+
+.update-form h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: crimson;
+  font-size: 28px;
+  text-shadow: 1px 1px 2px crimson;
+  margin-bottom: 30px;
+  text-decoration: 2px underline;
+}
+
+table {
+  border: 3px dashed royalblue;
+  margin: 20px auto;
+}
+
+td,
+tr {
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 18px;
+  vertical-align: middle;
+  text-align: left;
+  background-color: white;
+}
